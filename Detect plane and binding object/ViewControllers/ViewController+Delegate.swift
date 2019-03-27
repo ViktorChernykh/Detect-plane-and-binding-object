@@ -8,9 +8,10 @@
 
 import ARKit
 
-// MARK: - ... ARSCNViewDelegate
+
 extension ViewController: ARSCNViewDelegate {
     
+    // MARK: - ... ARSCNViewDelegate
     //  The delegate method is called after the object definition
     func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
         // Check the type of object. ARPlaneAnchor one of the child of ARAnchor

@@ -8,9 +8,9 @@
 
 import ARKit
 
-// MARK: - ... Custom Methods
 extension ViewController {
     
+    // MARK: - ... Custom Methods
     func createFloor(for planeAnchor: ARPlaneAnchor) -> SCNNode {
         // Get the size of a definition plane
         let extent = planeAnchor.extent
