@@ -2,19 +2,19 @@
 //  ViewController.swift
 //  Detect plane and binding object
 //
-//  Created by Viktor on 27/03/2019.
+//  Created by Viktor Chernykh on 27/03/2019.
 //  Copyright © 2019 Viktor Chernykh. All rights reserved.
 //
 
 // minion by https://www.cgtrader.com/items/989540/download-page
 
-import UIKit
 import ARKit
 
 class ViewController: UIViewController {
     
     var planeArray = [SCNNode]()
     var objectArray = [SCNNode]()
+    var textArray = [SCNNode]()
 
     @IBOutlet var sceneView: ARSCNView!
     
